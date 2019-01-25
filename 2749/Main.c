@@ -1,0 +1,1 @@
+a,b,c,T=1e6;main(){long long t;scanf("%lld", &t);a=0,b=1,c;t%=1500000;while(t--){c = b;b+=a;a=c;b-=b<T?0:T;}printf("%d\n", c%T);}
